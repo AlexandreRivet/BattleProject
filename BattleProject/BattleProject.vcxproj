@@ -78,6 +78,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="ArmorCapacity.h" />
+    <ClInclude Include="Capacity.h" />
+    <ClInclude Include="HealthCapacity.h" />
+    <ClInclude Include="SpeedCapacity.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ArmorCapacity.cpp" />
+    <ClCompile Include="Capacity.cpp" />
+    <ClCompile Include="HealthCapacity.cpp" />
+    <ClCompile Include="SpeedCapacity.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
